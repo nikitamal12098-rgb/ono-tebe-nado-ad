@@ -22,7 +22,7 @@
     list-style: none;
 }
 
-.header__link_active{
+.header__link_active {
     text-decoration: none;
 }  
 
@@ -36,7 +36,7 @@
 
 }
 
-.header__logo{
+.header__logo {
     display: block;
     width: 148px;
     height: 105px;
@@ -142,20 +142,19 @@
     margin-bottom: 27px;
 }
 
-.lots__card-list {
-    list-style: none;    
-    margin: 0;          
-    padding: 0;    
+.lots__card-list {   
+    margin: 0;
+    padding: 0;
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
-
+    list-style: none;
 }
 
 .lots__card-list-item {
-    margin: 0;          
-    padding: 0;         
-    list-style: none; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
     position: relative;
     min-height: 596px;
     width: 334px;
@@ -243,7 +242,7 @@
     background-color: black;
     justify-self: center;
 }
-.about__logo-image{
+.about__logo-image {
     height: 114px;
     width: 148px;
 }
